@@ -34,23 +34,6 @@ O pipeline foi estruturado da seguinte forma:
 
 ---
 
-## 🗂️ Estrutura do Repositório
-
-```bash
-.
-├── data/
-│   ├── bronze/          # Dados brutos
-│   ├── silver/          # Dados tratados e validados
-│   └── gold/            # Tabelas analíticas (Delta)
-├── notebooks/
-│   └── MVP_Engenharia_de_Dados.ipynb      # Notebook principal do projeto
-├── docs/
-│   └── relatorio.pdf    # Documento final do trabalho
-└── README.md
-```
-
----
-
 ## 📈 Principais Resultados
 
 * Frequência média dos alunos em torno de **75%**
@@ -77,7 +60,7 @@ O pipeline foi estruturado da seguinte forma:
    ```bash
    git clone https://github.com/marcelegv/MVP_Engenharia_de_Dados/
    ```
-2. Abra o notebook principal (`MVP_Engenharia_de_Dados.ipynb`)
+2. Abra o notebook principal (`Notebook_MVP_Engenharia_de_Dados.ipynb`)
 3. Execute as células sequencialmente a partir da ingestão dos dados
 
 > Recomenda-se ambiente compatível com Spark e Delta Lake (ex.: Databricks ou Spark local configurado).
